@@ -1,0 +1,19 @@
+.Coffeepot {
+    position: relative;
+}
+
+.volume {
+    position: absolute;
+    background-color: #775640; 
+    transition: 2s ease-in-out;
+    bottom: 0.6rem;
+    width: 11.5rem;
+    left: 2rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.Coffeepot img {
+    width: 17rem;
+    display: block;
+    position: relative;
+}  

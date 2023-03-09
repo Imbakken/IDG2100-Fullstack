@@ -1,0 +1,47 @@
+.UpdateBrewForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.0rem;
+    margin: 0 auto;
+    padding: 3rem 0 5rem 0;
+    width: 40rem;
+}
+
+.BrewFormTitle {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.UpdateBrewForm input, select {
+    height: 2.2rem;
+    width: 100%;
+    background-color: #ABAA97;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  
+.UpdateBrewForm input[type=number] {
+    appearance: textfield; 
+}
+  
+.UpdateBrewForm input[type=submit] {
+    width: 100%;
+    min-height: 6vh;
+    width: 30vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;
+}
+
+.UpdateBrewForm input[type=submit]:hover {
+    font-weight: bold;
+    color: #fff;
+}

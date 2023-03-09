@@ -1,0 +1,9 @@
+.BeanList {
+    margin: 50px;
+    text-align: center;
+}
+
+.BeanCard {
+    margin: 20px;
+    border-top: 1.5px solid #6A694F;
+}

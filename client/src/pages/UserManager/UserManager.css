@@ -1,0 +1,10 @@
+.EditUserForm {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+.CreateUserForm {
+    display: flex;
+    justify-content: center;
+}

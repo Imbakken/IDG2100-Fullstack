@@ -1,0 +1,36 @@
+.EditUser {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.0rem;
+    padding: 3rem;
+}
+  
+.Group input, select {
+    height: 2.2rem;
+    width: 100%;
+    background-color: #ABAA97;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.EditUser button {
+    width: 100%;
+    min-height:5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;
+}
+  
+.EditUser button:hover {
+    font-weight: bold;
+    color: #fff;
+}

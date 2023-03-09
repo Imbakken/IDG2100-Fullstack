@@ -1,0 +1,33 @@
+.BrewStatus { 
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    margin: 6rem;
+}
+
+.BrewStatus .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.BrewStatus #small {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+  
+.BrewStatus button {
+    background: #6A694F;
+    color:  #ABAA97;
+    min-height:2rem;
+    width: 12rem;
+    padding: 10px;
+    border: none;
+    border-radius:15px;
+    font-size: 1.2em;
+}
+
+.BrewStatus button:hover{ 
+    font-weight: bold;
+    color: #fff;
+}

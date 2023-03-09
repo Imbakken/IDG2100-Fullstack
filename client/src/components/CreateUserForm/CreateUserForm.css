@@ -1,0 +1,41 @@
+.CreateUser {
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.CreateUser h2 {
+    padding-bottom: 20px;
+} 
+.CreateUser input {
+    height: 2.2rem;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: #ABAA97;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.CreateUser input[type=submit] {
+    width: 100%;
+    min-height: 6vh;
+    width: 30vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;
+}
+      
+.CreateUser input[type=submit]:hover {
+    font-weight: bold;
+    color: #fff;
+}
+

@@ -1,0 +1,12 @@
+.YourStars {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  width: 10rem;
+  margin: 0 auto;
+}
+  
+.YourStars img {
+  width: 100%;
+}
+  

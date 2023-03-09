@@ -1,0 +1,12 @@
+.RatingsContainer {
+    display: flex;
+	justify-content: space-between;
+	align-content: center;
+    align-items: center;
+}
+
+#intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,38 @@
+.Card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1.5px solid #6A694F;
+}
+
+.ManageUsers button {
+    min-height: 5vh;
+    width: 15vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;
+}
+  
+.ManageUsers button:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.Username {
+    margin: 20px;
+}
+
+.Edit {
+    margin: 20px;
+}
+
+.Exit {
+    margin: 20px;
+}

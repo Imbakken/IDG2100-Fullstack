@@ -1,0 +1,35 @@
+.Brewhistory {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}.BrewHistoryContainerGrid{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between; 
+}
+
+.SortContainer input[type=submit] {
+    width: 100%;
+    min-height: 6vh;
+    width: 15vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;;
+}
+
+.SortContainer input[type=submit]:hover{ 
+    font-weight: bold;
+    color: #fff;
+}
+
+.SortContainer {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

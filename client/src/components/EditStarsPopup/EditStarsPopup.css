@@ -1,0 +1,20 @@
+.EditStarsPopup button {
+  min-height:5vh;
+  min-width: 30vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius:15px;
+  background: #6A694F;
+  color:  #c2b5b5;
+  font-size: 1.2em; 
+}
+  
+.EditStarsPopup button:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+.EditStarsPopup {
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.Stars {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  width: 20rem;
+  margin: 0 auto;
+}
+  
+.Stars img {
+  width: 100%;
+}
+  

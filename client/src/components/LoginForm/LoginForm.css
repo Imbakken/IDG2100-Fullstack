@@ -1,0 +1,53 @@
+.LoginForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.LoginForm input {
+    height: 6vh;
+    width: 70vh;
+    background-color: #ABAA97;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin: 10px 0 10px 0;
+}
+  
+.LoginForm .registerLink {
+    margin-top: 20px;
+}
+  
+.LoginForm .registerLink p {
+    margin-bottom: 10px;
+}
+
+.LoginForm input[type=submit] {
+    width: 100%;
+    min-height: 6vh;
+    width: 30vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius:15px;
+    background: #6A694F;
+    color:  #ABAA97;
+    font-size: 1.2em;
+}
+      
+.LoginForm input[type=submit]:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.Link:hover{
+    font-weight: bold;
+}
+  

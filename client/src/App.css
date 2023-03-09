@@ -1,0 +1,26 @@
+.main {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 100%;
+}
+
+.dashboard {
+    background-image: url("../src/assets/background.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.manageusers {
+  background-image: url("../src/assets/beanbag.svg");
+  height: 70vh;
+  background-position: 90%;
+  background-repeat: no-repeat;
+}
+
+.brewhistory {
+  background-image: url("../src/assets/beanbush.svg");
+  height: 30vh;
+  background-position: 5%;
+  background-repeat: no-repeat;  
+}
