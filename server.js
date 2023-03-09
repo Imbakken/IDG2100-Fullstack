@@ -17,12 +17,15 @@ dotenv.config();
 mongoose.connect(process.env.DB_CONNECT, () => console.log("Database connected"));
 
 app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-app.use(cors());
-app.use(cors({
-  origin: "https://idg2100-fullstack.onrender.com"
-}
-))
+app.use(express.json());  
+const corsOpts = {
+    origin: '*',
+    credentials: true,
+    methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
+    allowedHeaders: ['Content-Type'],
+    exposedHeaders: ['Content-Type']
+};
+app.use(cors(corsOpts));
 app.options('*', cors())
 app.use("/api/brew", brewRoutes);
 app.use("/api/bean", beanRoutes);
