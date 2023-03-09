@@ -1,5 +1,5 @@
 # IDG2100 Full-stack web development
-## 2022 Exam delivery folder (retake)
+## 2022 Exam delivery folder 
 ### Group 4, Hedda Olimb and Ida Marie Joakimsen Bakken :princess::princess:
 
 ## Goal :pushpin:
@@ -60,10 +60,6 @@ Password: Password123 <br />
 Username: employeeuser <br />
 Email: employee@gmail.com <br />
 Password: Password456 <br />
-
-## Project :date:
-Project start: Oktober 17, 2022.<br />
-Project end: November 14, 2022.
 
 ### Authors :pencil:
 - [Hedda Olimb](https://github.com/heddaoli)
