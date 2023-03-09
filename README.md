@@ -39,12 +39,11 @@ To install the application follow these instructions. (Make sure to set the corr
 - Run the npm start command to start the application.
 - Or, you can use the following commans in the terminal. 
 ```console
-cd backend
 npm install
 npm start
 ```
 ```console
-cd frontend
+cd client
 npm install
 npm start
 ```
