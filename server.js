@@ -19,15 +19,7 @@ mongoose.connect(process.env.DB_CONNECT, () => console.log("Database connected")
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());  
-const corsOpts = {
-    origin: '*',
-    credentials: true,
-    methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
-    allowedHeaders: ['Content-Type'],
-    exposedHeaders: ['Content-Type']
-};
-app.use(cors(corsOpts));
-app.options('*', cors())
+app.use(cors());
 app.use("/api/brew", brewRoutes);
 app.use("/api/bean", beanRoutes);
 app.use("/api/rate", rateRoutes);
