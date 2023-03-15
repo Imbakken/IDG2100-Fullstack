@@ -3,7 +3,7 @@
 import axios from "axios";
 
 let axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "https://idg2100-fullstack-exam.onrender.com/",
 });
 
 export default axiosInstance;

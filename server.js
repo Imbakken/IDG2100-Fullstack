@@ -26,10 +26,13 @@ app.use("/api/rate", rateRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
 
-if (process.env.NODE_ENV === 'production') {
-    //*Set static folder up in production
-    app.use(express.static('client/build'));
+app.get("/", (req, res) => {
+  res.setHeader("Access-Controll-Allow-Credentials","true");
+  res.send("API is running...");
+});
 
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
     app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'client', 'build','index.html')));
   }
 
