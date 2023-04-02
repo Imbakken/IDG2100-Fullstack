@@ -11,6 +11,7 @@ const BrewStatus = (props) => {
 
   useEffect(() => {
     auth.user && setUser(auth.user);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const setStars = (item) => {
