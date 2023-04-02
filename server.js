@@ -26,19 +26,21 @@ app.use("/api/rate", rateRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
 
-app.get("/", (req, res) => {
-  res.setHeader('Access-Controll-Allow-Credentials', 'true');
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-  res.send("API is running...");
+router.get('/', function(req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE'); 
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type'); 
+    res.setHeader('Access-Control-Allow-Credentials', true); 
+
+    res.send('cors problem fixed:)');
 });
 
+/*
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
     app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'client', 'build','index.html')));
   }
-
+*/
 app.listen(PORT, () => console.log(`server is up and running on ${PORT}`));
 
 
