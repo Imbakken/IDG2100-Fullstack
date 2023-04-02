@@ -16,6 +16,7 @@ const authRoutes = require("./routes/authRoutes");
 dotenv.config();
 
 mongoose.connect(process.env.DB_CONNECT, () => console.log("Database connected"));
+mongoose.set('strictQuery', true);
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());  
