@@ -9,7 +9,6 @@
       "client": "npm start --prefix client",
       "clientinstall": "npm install --prefix client",
       "dev": "concurrently \"npm run server\" \"npm run client\"",
-      "build": "npm i",
       "render-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
