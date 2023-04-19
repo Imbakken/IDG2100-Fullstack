@@ -13,7 +13,7 @@ const createBrew = (brewName, coffeeName, grind, water, gram, User) =>
     );
 
 const getBrews = () => {
-  return axios.get("/api/brew/latest");
+  return axios.get("https://idg2100-fullstack-exam.onrender.com/api/brew/latest");
 };
 
 const getAllBrews = () => {
